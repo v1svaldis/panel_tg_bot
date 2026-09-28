@@ -1,0 +1,19 @@
+node_modules/
+panel/data/
+*.log
+.env
+.session_secret
+db.sqlite
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+/tmp/
+*.tmp
+*.new
+
+# Telegram bot
+bot/.env
+bot/data/
+bot/.venv/
+bot/**/__pycache__/
+bot/**/*.pyc
